@@ -1,0 +1,15 @@
+apt update & apt upgrade -y && pkg install python git -y
+git clone https://github.com/vebix/wannados
+cd wannados
+pip install colorama
+python main.py
+https://github.com/anfisovDoxer/DoxSoft
+>>> импорт система
+>>> система.путь += ['Библиотека/тест/пространство имен_pkgs/project1', 'Библиотека/тест/пространство имен_pkgs/project2']
+>>> импорт родитель.потомок.один
+>>> родитель.__путь__
+_NamespacePath(['Библиотека/тест/namespace_pkgs/проект1/родительский', 'Библиотека/тест/namespace_pkgs/проект2/родительский'])
+>>> родитель.ребенок.__path__
+_NamespacePath(['Lib/test/namespace_pkgs/project1/parent/child', 'Lib/test/namespace_pkgs/project2/parent/child'])
+>>> import parent.child.two
+>>>
